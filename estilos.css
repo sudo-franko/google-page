@@ -18,7 +18,7 @@ header {
     justify-content: flex-end;
     align-items: center;
     height: 10%;
-    padding: 0.5rem;
+    padding: 0.6rem;
 }
 
 #cuenta-google {
@@ -48,4 +48,111 @@ header {
     width: 3.5rem;
     height: 3.5rem;
     border-radius: 50%;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 82%;
+}
+
+#buscador input{
+    height: 4.8rem;
+    width: 60rem;
+    margin-top: 2rem;
+    margin-bottom: 3.5rem;
+    border: 1px solid #dfe1e5;
+    border-radius: 20px;
+    text-indent: 2rem;
+    font-size: 1.6rem;
+}
+
+#buscador input::placeholder {
+    text-indent: 2rem;
+}
+
+#buscador input:focus {
+    outline: none;
+}
+
+#buscador input:hover {
+    box-shadow: 0 0 0 0.3rem #f4f4f4;
+}
+
+#opciones {
+    display: flex;
+    width: 50rem;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-bottom: 3rem;
+}
+
+#opciones button {
+    font-size: 1.4rem;
+    font-family: Arial, sans-serif;
+    height: 3.6rem;
+    width: 16rem;
+    background-color: #f8f9fa;
+    border: 0.1rem solid #f8f9fa;
+    color: #3c4043
+}
+
+#opciones button:hover {
+    border: 0.1rem solid #dfe1e5;
+}
+
+#info {
+    display: flex;
+    font-size: 1.3rem;
+    color: #4d5156;
+    gap: 0.7rem;
+    margin-bottom: 17.1rem;
+}
+
+#pais {
+    font-size: 1.5rem;
+    color: #202124;
+    width: 100%;
+    padding-left: 3rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    background-color: #f2f2f2;
+    border-bottom: 0.1rem solid #dfe1e5;
+}
+
+footer {
+    height: 8%;
+    background-color: #f2f2f2;
+    display: flex;
+    font-size: 1.4rem;
+    padding-left: 3rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    padding-right: 3rem;
+    justify-content: space-between;
+}
+
+footer div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    vertical-align: middle;
+}
+
+footer div:first-child {
+    width: 45rem
+}
+
+footer div:last-child {
+    width: 25rem
+}
+
+footer a {
+    text-decoration: none;
+    color: #333;
+}
+
+footer a:hover {
+    text-decoration: underline;
 }
