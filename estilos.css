@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%; /* 1rem = 10px */
+    font-family: Arial, sans-serif;
+}
+
+body {
+    height: 100vh;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 10%;
+    padding: 0.5rem;
+}
+
+#cuenta-google {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.3rem;
+    width: 23rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+
+#cuenta-google a {
+    text-decoration: none;
+    color: #333;
+}
+
+#cuenta-google a:hover {
+    text-decoration: underline;
+}
+
+#cuenta-google p {
+    font-size: 2.5rem;
+}
+
+#cuenta-google img {
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 50%;
+}
