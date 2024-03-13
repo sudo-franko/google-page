@@ -126,10 +126,10 @@ footer {
     background-color: #f2f2f2;
     display: flex;
     font-size: 1.4rem;
-    padding-left: 3rem;
+    padding-left: 4rem;
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
-    padding-right: 3rem;
+    padding-right: 4rem;
     justify-content: space-between;
 }
 
@@ -150,7 +150,7 @@ footer div:last-child {
 
 footer a {
     text-decoration: none;
-    color: #333;
+    color: #202124;
 }
 
 footer a:hover {
