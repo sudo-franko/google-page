@@ -11,73 +11,87 @@ html {
 
 body {
     height: 100vh;
-    width: 100vw;
 }
 
 header {
+    height: 10%;
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    height: 10%;
+    gap: 2rem;
     padding: 0.6rem;
+    margin-right: 0.9rem;
 }
 
-#cuenta-google {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.links {
     font-size: 1.3rem;
-    width: 23rem;
-    margin-right: 1rem;
-    margin-left: 1rem;
 }
 
-#cuenta-google a {
+.links, .buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.links a {
     text-decoration: none;
     color: #333;
 }
 
-#cuenta-google a:hover {
+.links a:hover {
     text-decoration: underline;
 }
 
-#cuenta-google p {
-    font-size: 2.5rem;
-}
-
-#cuenta-google img {
+.buttons button {
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0;
+    background-color: transparent;
     width: 3.5rem;
     height: 3.5rem;
+    border-radius: 50%;
+}
+
+.buttons button:hover {
+    background-color: rgb(226, 220, 220);
+}
+
+.prof-pic {
+    width: 2.9rem;
+    height: 2.9rem;
     border-radius: 50%;
 }
 
 main {
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
     align-items: center;
     height: 75%;
+    gap: 3rem;
 }
 
-#buscador input{
+.search-engine {
     height: 4.8rem;
     width: 60rem;
-    margin-top: 2rem;
-    margin-bottom: 3.5rem;
     border: 1px solid #dfe1e5;
     border-radius: 20px;
-    text-indent: 2rem;
     font-size: 1.6rem;
-}
-
-#buscador input::placeholder {
     text-indent: 2rem;
 }
 
-#buscador input:focus {
+.search-engine::placeholder {
+    text-indent: 2rem;
+}
+
+.search-engine:focus {
     outline: none;
 }
 
-#buscador input:hover {
+.search-engine:hover {
     box-shadow: 0 0 0 0.3rem #f4f4f4;
 }
 
