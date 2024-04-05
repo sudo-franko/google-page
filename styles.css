@@ -74,17 +74,24 @@ main {
     gap: 3rem;
 }
 
+.input {
+    position: relative;
+}
+
 .search-engine {
     height: 4.8rem;
     width: 60rem;
     border: 1px solid #dfe1e5;
     border-radius: 20px;
     font-size: 1.6rem;
-    text-indent: 2rem;
+    text-indent: 4.5rem;
 }
 
-.search-engine::placeholder {
-    text-indent: 2rem;
+.placeholder {
+    position: absolute;
+    font-size: 1.6rem;
+    left: 1.5rem;
+    top: 1.5rem;
 }
 
 .search-engine:focus {
