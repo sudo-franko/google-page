@@ -27,7 +27,8 @@ header {
     font-size: 1.3rem;
 }
 
-.links, .buttons {
+.links, 
+.buttons {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -223,7 +224,8 @@ footer a:hover {
         flex-direction: column;
     }
 
-    .more-links div:first-child, .more-links div:last-child {
+    .more-links div:first-child, 
+    .more-links div:last-child {
         padding: 0; 
     }
 }
