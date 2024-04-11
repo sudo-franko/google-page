@@ -3,39 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Busca la información del mundo, incluyendo páginas web, imágenes, videos y más. Google tiene muchas características especiales para ayudarte e encontrar exactamente lo que estás buscando...">
     <title>Google</title>
     <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
     <header>
-        <div id="cuenta-google">
+        <nav class="links">
             <a href="#">Gmail</a>
             <a href="#">Imágenes</a>
-            <p>#️⃣</p>
-            <img id="perfil" src="./img/profile.webp" alt="Foto de perfil por defecto.">
+        </nav>
+        <div class="buttons">
+            <button>#️⃣</button>
+            <button>
+                <img class="prof-pic" src="./img/profile.webp" alt="Foto de perfil por defecto.">
+            </button>
         </div>
     </header>
     <main>
-        <div>
-            <img id="logo-google" src="./img/googlelogo.png" alt="Logo de google.">
+        <img src="./img/googlelogo.png" alt="Logo de Google.">
+        <div class="input">
+            <input class="search-engine" id="portal" type="text" maxlength="59" autocomplete="off">
+            <label for="portal" class="placeholder">🔍️</label>
         </div>
-        <div id="buscador">
-            <input type="text" placeholder="🔍️">
-        </div>
-        <div id="opciones">
+        <div class="options">
             <button>Búsqueda de Google</button>
             <button>Doodles de Google</button>
         </div>
-        <div id="info">
+        <div class="credits">
             <p>Ofrecido por Google en:</p>
-            <a href="#">Español (Latinoamérica)</a>
+            <a href="#">Quechua</a>
         </div>
     </main>
     <footer>
-        <div id="pais">
+        <div class="country">
             Perú
         </div>
-        <div id="enlaces">
+        <div class="more-links">
             <div>
                 <a href="#">Información</a>
                 <a href="#">Publicidad</a>
@@ -49,5 +53,6 @@
             </div>
         </div>
     </footer>
+    <script src="./js/change-max-length.js"></script>
 </body>
 </html>
